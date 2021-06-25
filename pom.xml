@@ -9,7 +9,7 @@
 		<version>2.5.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>yassine.dev</groupId>
+	<groupId>ya.dev</groupId>
 	<artifactId>crm-spring-boot-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>crm-spring-boot-api</name>

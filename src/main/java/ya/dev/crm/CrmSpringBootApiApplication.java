@@ -1,4 +1,4 @@
-package yassine.dev.crmspringbootapi;
+package ya.dev.crm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
