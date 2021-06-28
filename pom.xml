@@ -68,7 +68,8 @@
 			<artifactId>mapstruct</artifactId>
 			<version>${mapstruct.version}</version>
 		</dependency>
-		<!-- Automated JSON API documentation for API's built with Spring -->
+		<!-- Automated JSON API documentation for API's built with Spring 
+			To use Swagger UI-->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-boot-starter</artifactId>
