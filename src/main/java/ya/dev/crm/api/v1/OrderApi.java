@@ -126,7 +126,7 @@ public class OrderApi {
 	@ApiResponses(value = {@ApiResponse(code = 204, message = "Order's label update complete."),
 						  @ApiResponse(code = 404, message = "Order Not Found!")})
 	@PreAuthorize("hasRole('ROLE_USER')")
-	public ResponseEntity patchOrderLabel(@PathVariable final Integer id, @RequestParam String label) {
+	public ResponseEntity<Void> patchOrderLabel(@PathVariable final Integer id, @RequestParam String label) {
 		try {
 			log.debug("Update order's label with id {}", id);
 			orderService.patchOrderLabel(id, label);
