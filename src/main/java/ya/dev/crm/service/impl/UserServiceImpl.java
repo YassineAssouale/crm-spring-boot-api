@@ -70,4 +70,14 @@ public class UserServiceImpl implements UserService{
 		
 	}
 
+	@Override
+	public User getUserByUsernameAndPassword(String username, String password) {
+		User user = userRepository.findByUsernameAndPassword(username, password);
+		if (user != null)	{
+			return user;
+		} else {
+			throw new UnknownResourceException();			
+		}
+	}
+
 }

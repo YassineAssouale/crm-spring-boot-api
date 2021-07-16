@@ -26,6 +26,13 @@ public interface UserService {
 	User getUserByUsername(String username);
 	
 	/**
+	 * @param username
+	 * @param password
+	 * @return
+	 */
+	User getUserByUsernameAndPassword(String username, String password);
+	
+	/**
 	 * Create a user
 	 * @param user
 	 * @return user
